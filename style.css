@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(0, 0, 0) ;
+}
+h2{
+    margin-left: 34rem;
+    color: white;
+    font-size: 26px;
+}
+#screen{
+    width:21rem;
+    height: 3rem;
+    margin-bottom: 7px;
+    text-align: right;
+    font-size: 2rem;
+    color: black;
+}
+.div1{
+    margin-left: 32rem;
+    border-right: none;
+    background-color: black;
+}
+.key{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    border: white;
+    margin: 2px;
+    font-size: 28px;
+    color: white; 
+    background-color: rgb(66, 65, 65);
+}
+#clear, #del{
+    color: white;
+    background-color: rgb(141, 132, 132);
+}
+#sqrt, #plus, #minus, #divide, #multiply{
+    background-color: rgb(255, 160, 0);
+}
+#equalTo{
+    width: 168px
+}
