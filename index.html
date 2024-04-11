@@ -8,26 +8,38 @@
 </head>
 <body>
     <div class="div1">
-        <input type="text" id="screen" placeholder="0" disabled><br>  
-        <input type="button" class="key" id="clear" value="CLR" onclick="clearScreen('')">
-        <input type="button" class="key" id="del" value="DEL"  onclick="backSpace()">  
-        <input type="button" class="key" id="sqrt" value="π" onclick="insert('3.14')">  
-        <input type="button" class="key" id="plus" value="+"  onclick="insert('+')"><br>
-        <input type="button" class="key" id="one" value="1"  onclick="insert('1')">
-        <input type="button" class="key" id="two" value="2"  onclick="insert('2')">
-        <input type="button" class="key" id="three" value="3"  onclick="insert('3')">  
-        <input type="button" class="key" id="minus" value="-"  onclick="insert('-')"><br>
-        <input type="button" class="key" id="four" value="4"  onclick="insert('4')"> 
-        <input type="button" class="key" id="five" value="5"  onclick="insert('5')"> 
-        <input type="button" class="key" id="six" value="6"  onclick="insert('6')">
-        <input type="button" class="key" id="multiply" value="×"  onclick="insert('*')"><br> 
-        <input type="button" class="key" id="seven" value="7"  onclick="insert('7')">  
-        <input type="button" class="key" id="eight" value="8"  onclick="insert('8')"> 
-        <input type="button" class="key" id="nine" value="9"  onclick="insert('9')"> 
-        <input type="button" class="key" id="divide" value="÷"  onclick="insert('/')"><br>
-        <input type="button" class="key" id="point" value="."  onclick="insert('.')">
-        <input type="button" class="key" id="zero" value="0"  onclick="insert('0')"> 
-        <input type="button" class="key" id="equalTo" value="="  onclick="equalTo('=')">
+        <div class="divscreen">
+            <input type="text" id="screen" placeholder="0" disabled><br>  
+        </div>
+        <div class="row1">
+            <input type="button" class="key" id="clear" value="CLR" onclick="clearScreen('')">
+            <input type="button" class="key" id="del" value="DEL"  onclick="backSpace()">  
+            <input type="button" class="key" id="sqrt" value="π" onclick="insert('3.14')">  
+            <input type="button" class="key" id="plus" value="+"  onclick="insert('+')">
+        </div>
+        <div class="row2">
+            <input type="button" class="key" id="one" value="1"  onclick="insert('1')">
+            <input type="button" class="key" id="two" value="2"  onclick="insert('2')">
+            <input type="button" class="key" id="three" value="3"  onclick="insert('3')">  
+            <input type="button" class="key" id="minus" value="-"  onclick="insert('-')">
+        </div>
+        <div class="row3">
+            <input type="button" class="key" id="four" value="4"  onclick="insert('4')"> 
+            <input type="button" class="key" id="five" value="5"  onclick="insert('5')"> 
+            <input type="button" class="key" id="six" value="6"  onclick="insert('6')">
+            <input type="button" class="key" id="multiply" value="×"  onclick="insert('*')"> 
+        </div>
+        <div class="row4">
+            <input type="button" class="key" id="seven" value="7"  onclick="insert('7')">  
+            <input type="button" class="key" id="eight" value="8"  onclick="insert('8')"> 
+            <input type="button" class="key" id="nine" value="9"  onclick="insert('9')"> 
+            <input type="button" class="key" id="divide" value="÷"  onclick="insert('/')"><br>
+        </div>
+        <div class="row5">
+            <input type="button" class="key" id="point" value="."  onclick="insert('.')">
+            <input type="button" class="key" id="zero" value="0"  onclick="insert('0')"> 
+            <input type="button" class="key" id="equalTo" value="="  onclick="equalTo('=')">
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

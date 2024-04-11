@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(184, 176, 176) ;
+    background-color: rgb(60, 61, 58) ;
     padding-top: 3rem;
 }
 #screen{
+    justify-self: center;
     width:21rem;
     height: 3rem;
     margin-bottom: 7px;
@@ -15,13 +16,22 @@ body{
     font-size: 2rem;
     color: black;
 }
+.divscreen{
+    display: flex;
+    justify-content: center;
+}
 .div1{
-    margin: auto;
+    justify-content: center;
     max-width: 500px;
-    background-color: rgb(0, 0, 0);
-    border: 2px solid white;
-    padding:auto;
-    
+    margin: auto;
+    background-color: rgb(12, 11, 11);
+    padding-top: 1rem;
+    border: 2px solid black;
+    height: 500px;
+}
+.row1, .row2, .row3, .row4, .row5{
+    display: flex;
+    justify-content: center;
 }
 .key{
     width: 5rem;
@@ -41,5 +51,5 @@ body{
     background-color: rgb(255, 160, 0);
 }
 #equalTo{
-    width: 168px
+    width: 160px
 }
