@@ -4,12 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(0, 0, 0) ;
-}
-h2{
-    margin-left: 34rem;
-    color: white;
-    font-size: 26px;
+    background-color: rgb(184, 176, 176) ;
+    padding-top: 3rem;
 }
 #screen{
     width:21rem;
@@ -20,9 +16,12 @@ h2{
     color: black;
 }
 .div1{
-    margin-left: 32rem;
-    border-right: none;
-    background-color: black;
+    margin: auto;
+    max-width: 500px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    padding:auto;
+    
 }
 .key{
     width: 5rem;
